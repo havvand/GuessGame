@@ -27,10 +27,7 @@ public class ComputerGuesserRandom implements IGuesser
         return lastGuess;
     }
 
-    public void tempMethod()
-    {
-        // Just for GitStash!
-    }
+
 
     public void guessFeedback(Answer answer)
     {
