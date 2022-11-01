@@ -27,7 +27,10 @@ public class ComputerGuesserRandom implements IGuesser
         return lastGuess;
     }
 
+public void testMethod()
+{
 
+}
 
     public void guessFeedback(Answer answer)
     {
