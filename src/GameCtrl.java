@@ -77,6 +77,10 @@ public class GameCtrl
 	public static void main(String[] args)
 	{
 		ComputerGuesserRandom one = new ComputerGuesserRandom();
+		MainFeature mainF = new MainFeature();
+		NewFeature newF = new NewFeature();
+		System.out.println(mainF);
+		System.out.println(newF);
 		System.out.println(one.makeGuess());
 		IThinker thinker = chooseType("Thinker") == 1 ? new HumanThinker() : new ComputerThinker();
 		IGuesser guesser = chooseType("Guesser") == 1 ? new HumanGuesser() : new ComputerGuesserRandom();
